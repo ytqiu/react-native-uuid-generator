@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.name         = "react-native-uuid-generator"
   s.version      = "3.0.2"
-  s.summary      = "A short description of react-native-uuid-generator."
+  s.summary      = "A description of react-native-uuid-generator."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,6 +25,7 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
+    react native uuid generator
                    DESC
 
   s.homepage     = "https://github.com/ytqiu/react-native-uuid-generator.git"
@@ -90,7 +91,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "ios/*.{h,m}
+  s.source_files  = "ios/*.{h,m}"
   # s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
